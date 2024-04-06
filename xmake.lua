@@ -4,7 +4,7 @@ set_version("0.1.0", {build = "%Y%m%d%H%M%S"})
 add_languages("c++17")
 add_rules("plugin.compile_commands.autoupdate", {outputdir = ".vscode"})
 add_rules("mode.debug", "mode.release")
-add_repositories("st_repo")
+add_repositories("st_repo git@github.com:yobome/xmake-repo.git yobome/dev")
 
 
 add_requires("stlog v1.0.1")
