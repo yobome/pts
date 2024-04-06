@@ -1,0 +1,6 @@
+date = 20240406 # optional
+
+[log]
+name = "pts" # optional, log filename prefix, default value is "pts"
+path = "./log/" # optional, log directory, default value is current directory.
+level = "DEBUG" # optional, log output level, default value is "INFO". options: DEBUG/INFO/WARNING/ERROR.
